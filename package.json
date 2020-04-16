@@ -1,0 +1,35 @@
+{
+	"name": "node_workshop",
+	"version": "1.0.0",
+	"description": "",
+	"main": "server.js",
+	"dependencies": {
+		"body-parser": "^1.19.0",
+		"ejs": "^2.6.1",
+		"express": "^4.17.1",
+		"mongodb": "^3.2.3",
+		"nodemon": "^1.18.10",
+		"request": "^2.88.2"
+	},
+	"devDependencies": {},
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": "nodemon server.js"
+	},
+	"nodemonConfig": {
+		"ignore": [
+			"data/*"
+		]
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/bmorelli25/simple-nodejs-weather-app.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/bmorelli25/simple-nodejs-weather-app/issues"
+	},
+	"homepage": "https://github.com/bmorelli25/simple-nodejs-weather-app#readme"
+}
